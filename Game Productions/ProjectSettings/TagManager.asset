@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Asteroid
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -49,4 +51,10 @@ TagManager:
     locked: 0
   - name: Ship
     uniqueID: 2829670621
+    locked: 0
+  - name: Asteroid Part
+    uniqueID: 1391759241
+    locked: 0
+  - name: Asteroid
+    uniqueID: 3810064493
     locked: 0
