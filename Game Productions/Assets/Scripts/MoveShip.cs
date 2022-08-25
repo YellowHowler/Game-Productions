@@ -24,11 +24,11 @@ public class MoveShip : MonoBehaviour
     {
         pos = transform.position;
         
-        if (Input.GetKey(KeyCode.A) && pos.x > -2.5f)
+        if (Input.GetKey(KeyCode.A) && pos.x > -3f)
         {
             transform.position = new Vector3(pos.x - moveSpeed*Time.deltaTime, pos.y, 0);
         }
-        if (Input.GetKey(KeyCode.D) && pos.x < 2.5f)
+        if (Input.GetKey(KeyCode.D) && pos.x < 3f)
         {
             transform.position = new Vector3(pos.x + moveSpeed*Time.deltaTime, pos.y, 0);
         }

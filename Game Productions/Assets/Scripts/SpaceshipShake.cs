@@ -13,6 +13,6 @@ public class SpaceshipShake : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.localPosition = new Vector3(Mathf.Sin(Time.time*10)/30, Mathf.Sin(Time.time*6)/40, 0);
+        transform.localPosition = new Vector3(3 * Mathf.Sin(Time.time*8)/30, 3 * Mathf.Sin(Time.time*4)/40, 0);
     }
 }

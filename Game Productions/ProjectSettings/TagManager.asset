@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Asteroid
   - Bullet
+  - ScoreUI
   layers:
   - Default
   - TransparentFX
@@ -46,6 +47,9 @@ TagManager:
   - name: Background
     uniqueID: 3134929969
     locked: 0
+  - name: Star
+    uniqueID: 156716593
+    locked: 0
   - name: Bullet
     uniqueID: 1563312601
     locked: 0
@@ -57,4 +61,7 @@ TagManager:
     locked: 0
   - name: Asteroid
     uniqueID: 3810064493
+    locked: 0
+  - name: UI
+    uniqueID: 1514105743
     locked: 0
