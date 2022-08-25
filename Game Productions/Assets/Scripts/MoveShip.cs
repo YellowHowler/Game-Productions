@@ -13,10 +13,7 @@ public class MoveShip : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine("ShootBullet");
-        //StartCoroutine("Move");
-
-        //transform.position = new Vector(3, 3, 3.4f);
+        StartCoroutine("ShootBullet");›
     }
 
     // Update is called once per frame
@@ -46,22 +43,4 @@ public class MoveShip : MonoBehaviour
         yield return new WaitForSeconds(0.15f);
         canShoot = true;
     }
-
-    // IEnumerator Move()
-    // {
-    //     while(true)
-    //     {
-    //         //pos = transform.position;
-    //         if (Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D) && pos.x > -2.5f)
-    //         {
-    //             transform.position = new Vector3(pos.x - moveSpeed*moveDelay, pos.y, 0);
-    //         }
-    //         if (Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A) && pos.x < 2.5f)
-    //         {
-    //             transform.position = new Vector3(pos.x + moveSpeed*moveDelay, pos.y, 0);
-    //         }
-
-    //         yield return new WaitForSeconds(moveDelay);
-    //     }
-    // }
 }
